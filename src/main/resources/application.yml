@@ -1,0 +1,6 @@
+server:
+  port: 8111
+mail:
+  server: duytd752@gmail.com
+api:
+  get-code: http://localhost:8081/api/v1/rent-mails/otp
