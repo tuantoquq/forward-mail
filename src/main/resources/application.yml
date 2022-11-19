@@ -3,4 +3,4 @@ server:
 mail:
   server: duytd752@gmail.com
 api:
-  base-url: http://localhost:8081/api/v1/
+  base-url: https://api.gmailmmo.com/api/v1/

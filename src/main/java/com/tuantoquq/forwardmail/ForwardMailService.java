@@ -60,7 +60,7 @@ public class ForwardMailService {
     }
     public String updateMailForwardStatus(String email) {
         HttpHeaders headers = new HttpHeaders();
-        String requestUrl = apiGmailMMO + "mails/update-forward-status";
+        String requestUrl = apiGmailMMO + "mails/internal/update-forward-status";
         headers.setContentType(MediaType.APPLICATION_JSON);
         UpdateForwardStatusRequest request = new UpdateForwardStatusRequest(email);
         HttpEntity<UpdateForwardStatusRequest> entity = new HttpEntity<>(request, headers);
