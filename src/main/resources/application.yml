@@ -3,4 +3,4 @@ server:
 mail:
   server: duytd752@gmail.com
 api:
-  get-code: http://localhost:8081/api/v1/rent-mails/otp
+  base-url: http://localhost:8081/api/v1/
